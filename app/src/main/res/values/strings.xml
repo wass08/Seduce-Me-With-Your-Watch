@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seduce Me With Your Watch</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Seduce Me With Your Watch</string>
+    <string name="tutorial_description">Use your connected watch to seduce your target with a pinch of humor and high dose of technology !</string>
+    <string name="tutorial_example">        This app will send notification to your watch to tell you there is a beautiful woman next to you.
+        Then simply go to the desired one, and tell her your watch started the alert when she was close to you.
+        Either she laugh and it\'s your time to make your beautiful smile and talk or she\'s not a funny girl so leave her in her not funny world...</string>
+    <string name="tutorial_completion">        Swipe left to start...</string>
+    <string name="sample_title">Your time to play</string>
+    <string name="button_send">SEND</string>
+    <string name="sample_man">Default notification if your target is a man</string>
+    <string name="sample_man_title">BEAUTIFUL MAN ALERT</string>
+    <string name="sample_man_content">The man next to you is beautiful, you should try something !</string>
+    <string name="sample_woman">Default notification if your target is a woman</string>
+    <string name="sample_woman_title">BEAUTIFUL WOMAN ALERT</string>
+    <string name="sample_woman_content">The woman next to you is beautiful, you should try something !</string>
+    <string name="sample_love">Express your love...</string>
+    <string name="sample_love_title">HEY</string>
+    <string name="sample_love_content">I LOVE YOU !</string>
+    <string name="sample_completion">        Not enough for you ? Send your custom notifications ! Swipe left to start...</string>
+
+    <string name="custom_title">Send custom notifications</string>
+    <string name="custom_input_title">Title</string>
+    <string name="custom_input_content">Content</string>
+</resources>

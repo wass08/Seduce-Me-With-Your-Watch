@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wass08.futureseduction.fragments.SamplesFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg_woman"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/basic_background"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sample_title" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sample_woman"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:background="@drawable/basic_button"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/button_woman_send"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sample_man"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:background="@drawable/basic_button"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/button_man_send"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sample_love"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:background="@drawable/basic_button"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/button_love_send"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="@string/sample_completion"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="italic"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>

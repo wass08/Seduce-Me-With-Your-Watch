@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wass08.futureseduction.fragments.CustomFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg_boat"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/basic_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/custom_title"
+            android:layout_marginBottom="20dp" />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_input_title"
+            android:hint="@string/custom_input_title"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_input_content"
+            android:hint="@string/custom_input_content"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:background="@drawable/basic_button"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/button_custom_send"
+            android:layout_marginTop="5dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

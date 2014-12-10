@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Séduis Moi Avec Ta Montre</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Séduis Moi Avec Ta Montre</string>
+    <string name="tutorial_description">Utilisez votre montre connectée pour séduire votre cible avec une pincée d\'humour et une forte dose de nouvelles technologies !</string>
+    <string name="tutorial_example">
+        L\'application va envoyer une notification à votre montre pour vous avertir qu\'une jolie femme est proche de vous.
+        Puis allez simplement vers votre cible et dites lui que l\'alerte est apparue quand vous vous êtes approchés d\'elle.
+        Soit elle rigole et c\'est à vous de jouer en faisant votre plus beau sourire et en abordant la conversation, soit, elle n\'est pas marrante alors laissez la dans son monde ennuyeux...
+    </string>
+    <string name="tutorial_completion">Glissez vers la gauche pour commencer</string>
+    <string name="sample_title">A vous de jouer</string>
+    <string name="button_send">ENVOYER</string>
+    <string name="sample_man">Notification de base si votre cible est un homme</string>
+    <string name="sample_man_title">HOMME SUBLIME</string>
+    <string name="sample_man_content">Homme sublime proche de vous, vous devez tenter quelque chose</string>
+    <string name="sample_woman">Notification de base si votre cible est une femme</string>
+    <string name="sample_woman_title">FEMME SUBLIME</string>
+    <string name="sample_woman_content">Femme magnifique proche de vous, vous devez tenter quelque chose</string>
+    <string name="sample_love">Dites lui que vous l\'aimez...</string>
+    <string name="sample_love_title">HEY</string>
+    <string name="sample_love_content">I LOVE YOU !</string>
+    <string name="sample_completion">Besoin d\'un message plus précis ? Envoyez vos propres notifications ! Glissez vers la gauche pour commencer...</string>
+
+    <string name="custom_title">Envoi de vos propres notifications</string>
+    <string name="custom_input_title">Titre</string>
+    <string name="custom_input_content">Contenu</string>
+</resources>
